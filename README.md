@@ -11,7 +11,7 @@ This paper has been accepted by IEEE ICIP 2022.
 Paper Link: https://arxiv.org/abs/2203.02445
 
 <div align=center>
-<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/sfmandresults.png width=100% />
+<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/sfmandresulttable.png width=100% />
 </div>
 
 Architecture of Synthetic Fusion Module (SFM). The blue, orange and gray arrows represent the optional inputs. The experiments prove the SFPN architecture outperforms either the large backbone VGG16, ResNet50 or light-weight backbones such as MobilenetV2 based on AP score.
