@@ -17,6 +17,11 @@ Paper Link: https://arxiv.org/abs/2203.02445
 This paper has been accepted by IEEE ICIP 2022.
 
 
+## More Suitable Feature
+
+Synthetic layers fit some objects better than original layers. The top three frames are the confidence maps output by SFPN-3, and the bottom three frames are the confidence maps output by SFPN-5-SOL.
+
+
 ## Requirements
 
 - [Python 3](https://www.python.org/)
@@ -24,7 +29,7 @@ This paper has been accepted by IEEE ICIP 2022.
 - [OpenCV](https://docs.opencv.org/4.5.2/d6/d00/tutorial_py_root.html)
 - [Numpy](http://www.numpy.org/)
 
-## How to Reproduce the Result?
+## How to Reproduce the Result ?
 ```bash
 #Train
 python3 main.py -t cfg/train_coco.cfg
