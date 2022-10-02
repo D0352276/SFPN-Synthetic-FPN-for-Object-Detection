@@ -6,15 +6,21 @@
 
 This project was developed from CSL-YOLO and is its follow-up study. The proposed SFPN (Synthetic Fusion Pyramid Network) arichtecture creates various synthetic layers between layers of the original FPN to enhance the accuracy of light-weight CNN backones to extract objects' visual features more accurately.
 
+This paper has been accepted by IEEE ICIP 2022.
+
+Paper Link: https://arxiv.org/abs/2203.02445
+
 <div align=center>
 <img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/sfmandresults.png width=100% />
 </div>
 
-The experiments prove the SFPN architecture outperforms either the large backbone VGG16, ResNet50 or light-weight backbones such as MobilenetV2 based on AP score.
+Architecture of Synthetic Fusion Module (SFM). The blue, orange and gray arrows represent the optional inputs. The experiments prove the SFPN architecture outperforms either the large backbone VGG16, ResNet50 or light-weight backbones such as MobilenetV2 based on AP score.
 
-This paper has been accepted by IEEE ICIP 2022.
+<div align=center>
+<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/sfpn.png width=100% />
+</div>
 
-Paper Link: https://arxiv.org/abs/2203.02445
+Synthetic Fusion Pyramid Network with synthetic outputs layers: (a) SFPN-5-SOL, (b) SFPN-9-SOL. The yellowsquares represent SFBs.
 
 
 ## More Suitable Feature
@@ -61,4 +67,10 @@ This link contains all weights of CNN models mentioned in the paper.
 The entire MS-COCO dataset is too large, here only a few pictures are stored for DEMO, 
 
 if you need complete data, please download on this [page.](https://cocodataset.org/#download)
+
+## Results
+<div align=center>
+<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/results.png width=50% />
+</div>
+
 
