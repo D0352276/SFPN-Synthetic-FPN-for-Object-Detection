@@ -70,7 +70,7 @@ if you need complete data, please download on this [page.](https://cocodataset.o
 
 ## Results
 <div align=center>
-<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/results.png width=50% />
+<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/results.png width=60% />
 </div>
 
 
