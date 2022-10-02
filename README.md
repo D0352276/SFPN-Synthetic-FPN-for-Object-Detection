@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/TensorFlow-2-orange)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
-This project proposes a new SFPN (Synthetic Fusion Pyramid Network) arichtecture which creates various synthetic layers between layers of the original FPN to enhance the accuracy of light-weight CNN backones to extract objects' visual features more accurately.
+This project was developed from CSL-YOLO and is its follow-up study. The proposed SFPN (Synthetic Fusion Pyramid Network) arichtecture creates various synthetic layers between layers of the original FPN to enhance the accuracy of light-weight CNN backones to extract objects' visual features more accurately.
 
 <div align=center>
 <img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/sfmandresults.png width=100% />
