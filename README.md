@@ -24,4 +24,28 @@ This paper has been accepted by IEEE ICIP 2022.
 - [OpenCV](https://docs.opencv.org/4.5.2/d6/d00/tutorial_py_root.html)
 - [Numpy](http://www.numpy.org/)
 
+## How to Reproduce the Result?
+```bash
+#Train
+python3 main.py -t cfg/train_coco.cfg
+
+#MS-COCO Evaluation
+python3 main.py -ce cfg/m2_224_3.cfg
+
+#FPS Evaluation
+python3 main.py -fe cfg/m2_224_3.cfg
+
+#Drawing Confidence Figure
+python3 main.py -pc cfg/m2_224_3.cfg
+
+```
+The cfg file can be changed by the paper prosoed versions. It has options like "m2_224_3.cfg", "m2_320_5.cfg", ......, and "vgg_320_9.cfg".
+
+##Fully Model Weights Files
+It is to be released later !
+
+### Fully Dataset
+The entire MS-COCO dataset is too large, here only a few pictures are stored for DEMO, 
+
+if you need complete data, please download on this [page.](https://cocodataset.org/#download)
 
