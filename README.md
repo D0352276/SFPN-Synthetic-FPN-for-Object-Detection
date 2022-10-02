@@ -7,7 +7,7 @@
 This project proposes a new SFPN (Synthetic Fusion Pyramid Network) arichtecture which creates various synthetic layers between layers of the original FPN to enhance the accuracy of light-weight CNN backones to extract objects' visual features more accurately.
 
 <div align=center>
-<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/results.png width=100% />
+<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/demo.png width=100% />
 </div>
 
 The experiments prove the SFPN architecture outperforms either the large backbone VGG16, ResNet50 or light-weight backbones such as MobilenetV2 based on AP score.
