@@ -69,6 +69,8 @@ The entire MS-COCO dataset is too large, here only a few pictures are stored for
 if you need complete data, please download on this [page.](https://cocodataset.org/#download)
 
 ## Results
+ Comparison of SFPN-5 and SFPN-9 with the baseline (SFPN-3) on MS-COCO. Note that the FPS is derived from the I7-6600U.
+ 
 <div align=center>
 <img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/results.png width=60% />
 </div>
