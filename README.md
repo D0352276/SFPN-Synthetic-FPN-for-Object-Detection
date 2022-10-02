@@ -39,7 +39,7 @@ In this example, we found that the synthetic layers fit some objects better than
 - [OpenCV](https://docs.opencv.org/4.5.2/d6/d00/tutorial_py_root.html)
 - [Numpy](http://www.numpy.org/)
 
-## How to Reproduce the Result ?
+## How to Reproduce the Results ?
 ```bash
 #Train
 python3 main.py -t cfg/train_coco.cfg
