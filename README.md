@@ -12,14 +12,18 @@ This project proposes a new SFPN (Synthetic Fusion Pyramid Network) arichtecture
 
 The experiments prove the SFPN architecture outperforms either the large backbone VGG16, ResNet50 or light-weight backbones such as MobilenetV2 based on AP score.
 
-Paper Link: https://arxiv.org/abs/2203.02445
-
 This paper has been accepted by IEEE ICIP 2022.
+
+Paper Link: https://arxiv.org/abs/2203.02445
 
 
 ## More Suitable Feature
 
-Synthetic layers fit some objects better than original layers. The top three frames are the confidence maps output by SFPN-3, and the bottom three frames are the confidence maps output by SFPN-5-SOL.
+<div align=center>
+<img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/moresuitfeats.png width=70% />
+</div>
+
+In this example, we found that the synthetic layers fit some objects better than original layers. The top three frames are the confidence maps output by SFPN-3, and the bottom three frames are the confidence maps output by SFPN-5-SOL.
 
 
 ## Requirements
@@ -46,8 +50,10 @@ python3 main.py -pc cfg/m2_224_3.cfg
 ```
 The cfg file can be changed by the paper prosoed versions. It has options like "m2_224_3.cfg", "m2_320_5.cfg", ......, and "vgg_320_9.cfg".
 
+
 ## Fully Model Weights Files
 It is to be released later !
+
 
 ## Fully Dataset
 The entire MS-COCO dataset is too large, here only a few pictures are stored for DEMO, 
