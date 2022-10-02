@@ -52,7 +52,9 @@ The cfg file can be changed by the paper prosoed versions. It has options like "
 
 
 ## Fully Model Weights Files
-It is to be released later !
+[Download Link](https://drive.google.com/drive/folders/1aF-nK44huxbiQP1zZsg8Mjwfr0n2Nz-k?usp=sharing)
+
+This link contains all weights of CNN models mentioned in the paper.
 
 
 ## Fully Dataset
