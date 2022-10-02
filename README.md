@@ -20,7 +20,7 @@ Architecture of Synthetic Fusion Module (SFM). The blue, orange and gray arrows 
 <img src=https://github.com/D0352276/SFPN-Synthetic-FPN-for-Object-Detection/blob/main/demo/sfpn.png width=100% />
 </div>
 
-Synthetic Fusion Pyramid Network with synthetic outputs layers: (a) SFPN-5-SOL, (b) SFPN-9-SOL. The yellowsquares represent SFBs.
+Synthetic Fusion Pyramid Network with synthetic outputs layers: (a) SFPN-5-SOL, (b) SFPN-9-SOL. The yellow squares represent SFBs.
 
 
 ## More Suitable Feature
